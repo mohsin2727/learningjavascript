@@ -1,0 +1,10 @@
+let responseTime = 3;
+let threshold = 3;
+
+console.log("Response time: " + responseTime + " seconds");
+console.log("Threshold: " + threshold + " seconds");
+if (responseTime <= threshold) {
+  console.log("❌ Response too slow");
+} else {
+  console.log("✅ Response time acceptable");
+}
